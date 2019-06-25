@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-
+	$(".box").hide();
 draw();
 	
 
@@ -22,7 +22,8 @@ function drawSet(responseJson) {
   $(".layer-three").css({"border-top":"solid","border-color":colors[3].value});
   $(".layer-four").css({"border-top":"solid","border-color":colors[4].value});
   $(".layer-five").css({"border-top":"solid","border-color":colors[0].value});		
-
+  $(".box").show();
+  $(".wait").hide();
 }
 
 const API_BASE = 'https://api.noopschallenge.com';
