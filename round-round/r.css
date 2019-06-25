@@ -1,0 +1,78 @@
+.about
+{
+	float : right;
+
+}
+.layer
+{
+    margin:35px;
+    padding:10px;
+    border: 12px solid #0000;
+    border-radius: 50%;
+    border-top: solid;
+    border-top-width:2px;
+    -webkit-animation: spin linear infinite; /* Safari */
+    animation: spin linear infinite;
+    position: absolute;
+}
+
+/* Standard syntax */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    50% { -webkit-transform: rotate(180deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.layer-one {
+    top: 25px;
+    left: 25px;
+    width: 350px;
+    height: 350px;
+    animation-duration: 5s;
+}
+
+.layer-two {
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+    animation-duration: 3s;
+}
+
+.layer-three {
+    top: 75px;
+    left: 75px;
+    width: 250px;
+    height: 250px;
+    animation-duration: 4s;
+}
+
+.layer-four {
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    animation-duration: 2s;
+}
+.layer-five{
+  top: 125px;
+  left: 125px;
+  width: 150px;
+  height: 150px;
+  animation-duration: 4s;
+}
+
+
+#Layer_1{
+    top: 145px;
+    left: 145px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
